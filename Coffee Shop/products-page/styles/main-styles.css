@@ -1,0 +1,29 @@
+body {
+    background-color: #2C3639;
+    color: #DFD3C3;
+    margin: 0;
+    padding: 0;
+    font-family: 'Jost', sans-serif;
+}
+
+section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+    width: 100%;
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    color: #DFD3C3;
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    width: 20%;
+}

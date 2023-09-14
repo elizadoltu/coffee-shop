@@ -1,0 +1,138 @@
+.introduction-section  {
+    opacity: 0;
+    
+}
+
+.landing-page-image {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    transition: transform 1s ease;
+    transition-delay: 0.5s;
+    z-index: 1;
+}
+
+.introduction-title {
+    position: absolute;
+    font-size: 4rem;
+    top: 20%;
+    left: 55%;
+    -webkit-text-fill-color: #536162;
+    opacity: 0;
+    z-index: 2;
+    filter: blur(5px);
+    transform: translateX(10%);
+    transition: all 1s ease;
+    transition-delay: 0.8s;
+    
+}
+
+.introduction-title.show-titles {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+.introduction-section.show {
+     
+    opacity: 1;
+    -webkit-animation: introduction-appear 1s ease forwards;
+}
+
+@keyframes introduction-appear {
+    from {
+        -webkit-transform: translateY(100%);
+    }
+
+    to {
+        -webkit-transform: translateY(0);
+    }
+}
+
+/* .introduction-section.intro-animation .landing-page-image {
+    transform: scale(0.5) translateX(-40%);
+} */
+
+/* .introduction-section.show .intro-title-animation {
+    transform: scale(0.8) translateX(80%) translateY(-90%);
+} */
+
+.menu-list {
+    font-size: 3rem;
+    color: #3F4E4F;
+    position: absolute;
+    top: 35%;
+    left: 53%;
+    opacity: 0;
+    filter: blur(5px);
+    z-index: 2;
+    transform: translateX(20%);
+    transition: all 1s ease;
+    transition-delay: 1s;
+}
+
+.menu-list a {
+    color: #3F4E4F;
+}
+
+.menu-list.show-titles {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+/* .animation-intro {
+    filter: blur(5px);
+    transform: translateX(-50%);
+    -webkit-transition: all 1s ease;
+    -webkit-transition-delay: 0.8s;
+}
+
+.animation-intro.show-titles {
+    opacity: 1;
+    filter: blur(0);
+    -webkit-transform: translateX(85%) translateY(35%);
+} */
+
+.coffee-icon {
+    position: absolute;
+    width: 4%;
+    top: 4%;
+    left: 41%;
+    transform: rotate(-20deg);
+    transition: transform 0.5s ease;
+    z-index: 2;
+}
+
+.coffee-name {
+    position: absolute;
+    font-size: 2.8rem;
+    color: #b89d7e;
+    top: 1%;
+    z-index: 3;
+} 
+
+.coffee-icon:hover {
+    transform: rotate(-1deg);
+}
+
+.menu-item {
+    transition: transform 0.3s ease;
+}
+
+.menu-item:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.coffee-bean {
+    position: absolute;
+    width: 20%;
+    transition: transform 0.2s ease;
+    z-index: 2;
+}
+
+.coffee-bean:hover {
+    transform: translateY(-15%) rotate(7deg);
+}
+

@@ -1,0 +1,55 @@
+.complete-product {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.complete-product div {
+    margin-left: 50px;
+}
+
+.product-name {
+    opacity: 0;
+    transform: translateX(-20%);
+    filter: blur(5px);
+    transition: all 0.5s ease;
+}
+
+.product-name.zoom:hover {
+    transform: scale(1.1);
+    cursor: default;
+}
+
+.product-name.show-titles {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+.product-description {
+    opacity: 0;
+    transform: translateX(-20%);
+    filter: blur(5px);
+    transition: all 0.5s ease;
+    transition-delay: 0.2s;
+}
+
+.product-description.show-titles {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+.product {
+    opacity: 0;
+    transform: translateX(-20%);
+    filter: blur(5px);
+    transition: all 0.5s ease;
+}
+
+.product.zoom.show-titles {
+    opacity: 1;
+    transform: translateX(0);
+    filter: blur(0);
+}

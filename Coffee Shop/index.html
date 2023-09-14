@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Fjalla+One&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/introduction-section.css" />
+    <link rel="stylesheet" href="styles/main-style.css" />
+    <link rel="stylesheet" href="styles/about-us-section.css" />
+    <link rel="stylesheet" href="styles/services-section-style.css" />
+    <link rel="stylesheet" href="styles/our-prducts-section.css" />
+    <link rel="stylesheet" href="styles/footer-style.css" />
+    <title>Coffee Shop</title>
+  </head>
+  <main>
+    <body>
+      <section class="introduction-section intro-animation">
+        <h2 class="coffee-name">Coffee Shop</h2>
+        <img
+          src="images/coffee-icon.png"
+          alt="coffee-icon"
+          class="coffee-icon"
+        />
+
+        <h2 class="introduction-title">
+          Start Your Day Right.
+          <img
+            src="images/coffee-bean-icon-9.png"
+            alt="coffee-bean-icon"
+            class="coffee-bean"
+          />
+        </h2>
+        <img
+          src="images/content-pixie-Xv0CHwbn6O8-unsplash.jpg"
+          alt="landing-page-image"
+          class="landing-page-image"
+          id="landingImage"
+        />
+        <ul class="menu-list">
+          <li class="menu-item">
+            <a href="#our-story-id" onclick="scrollToSection('our-story-id')"
+              >&#8594; OUR STORY
+            </a>
+          </li>
+          <li class="menu-item">
+            <a href="#services-id" onclick="scrollToSection('services-id')"
+              >&#8594; SERVICES</a
+            >
+          </li>
+          <li class="menu-item">
+            <a href="#producs-id" onclick="scrollToSection('products-id')"
+              >&#8594; PRODUCTS</a
+            >
+          </li>
+        </ul>
+      </section>
+      <section class="about-us-section" id="our-story-id">
+        <h2 class="about-us-title">OUR STORY</h2>
+        <p class="story-description">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia
+          saepe est quis rem dolor nihil, beatae voluptatibus nobis sit eius,
+          possimus cum tempora eveniet veritatis asperiores incidunt odio
+          reprehenderit reiciendis! Eius libero incidunt laboriosam eos labore,
+          molestias nobis consectetur minus illo error beatae enim nulla ullam
+          est cumque quos non velit itaque sit nihil repudiandae facilis quasi.
+          Repudiandae, nulla provident. Ut quod similique illum nesciunt,
+          dolores, repellat nostrum exercitationem quidem molestias repudiandae
+          sint tenetur cum sequi nihil, recusandae molestiae corporis id
+          pariatur rerum commodi? Expedita beatae provident sequi. Modi, ea.
+        </p>
+        <img
+          src="images/about-us-image.jpg"
+          alt="about-us-image"
+          class="about-us-image"
+        />
+        <p class="quote-about-us">"A History of Coffee Greatness."</p>
+      </section>
+      <section class="services-section" id="services-id">
+        <img
+          src="images/services-image.jpg"
+          alt="services-image"
+          class="services-image"
+        />
+        <p class="services-description">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident
+          eos ducimus unde rem nostrum iusto cumque sit error, laborum itaque
+          quam. Velit dicta ratione commodi illo voluptate quasi iste esse?
+          Voluptatibus, quasi! Vero ducimus at maxime quo officia ipsum, ea quod
+          quis, iusto eligendi eaque quisquam velit, quasi tempore explicabo
+          labore laboriosam deserunt optio ad? Molestias hic qui et dicta!
+        </p>
+        <h2 class="our-service-title">OUR SERVICES</h2>
+        <p class="quote-services">"Relax. Refresh. Recharge."</p>
+      </section>
+      <section class="our-products-section" id="products-id">
+        <h2 class="our-products-title">WHAT YOU CAN FIND</h2>
+        <p class="our-products-description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel mollitia,
+          repellat ipsum iste dicta error! Blanditiis perspiciatis similique est
+          amet, ad explicabo ducimus iste neque accusamus, sunt perferendis
+          nostrum natus! Deleniti tempore voluptates dolores dolore ea officiis
+          nulla id? Porro modi odio eum voluptates fugit. Similique tempore
+          mollitia, architecto nemo sint atque in laboriosam facere. Quis
+          pariatur excepturi esse veritatis.
+        </p>
+        <img
+          src="images/our-products-image.jpg"
+          alt="our-products-image"
+          class="our-products-image"
+        />
+        <p class="quote-shop">"Made Just for You."</p>
+        <a href="products-page/index-products.html"
+          ><button class="more-products-button animation">
+            Click for More &#8594;
+          </button>
+        </a>
+      </section>
+      <script src="scripts/landing-page-animations.js"></script>
+      <script src="scripts/introduction-animation.js"></script>
+      <script src="scripts/scroll-function.js"></script>
+    </body>
+    <footer class="where-you-can-find-us">
+      <img
+        src="images/footer-image.jpg"
+        alt="footer-image"
+        class="footer-image"
+      />
+      <h2 class="footer-title">Where You Can Find Us</h2>
+      <ul class="footer-list">
+        <li class="footer-item">
+          Facebook: <a href="https://facebook.com">Coffee Shop</a>
+        </li>
+        <li class="footer-item">
+          Instagram: <a href="https://instagram.com">@coffee_shop</a>
+        </li>
+        <li class="footer-item">
+          Tik-Tok: <a href="https://tiktok.com">@coffee_shop</a>
+        </li>
+        <li class="footer-item">
+          Email:
+          <a href="mailto:coffeeshopofficial@gmail.com"
+            >coffeeshopofficial@gmail.com</a
+          >
+        </li>
+        <li class="footer-item">Address: Street Spencer, No. 10</li>
+      </ul>
+      <h2 class="copy-right">
+        &copy; This template has been skillfully crafted by BeDeveloper. Should
+        you wish to utilize it, don't hesitate to get in touch with us. We're at
+        your service to provide further information and assistance. Thank you
+        for considering BeDeveloper.
+      </h2>
+    </footer>
+  </main>
+</html>

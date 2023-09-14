@@ -1,0 +1,42 @@
+.where-you-can-find-us {
+    margin-top: 150px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2C3639;
+}
+
+.footer-image {
+    width: 40%;
+    border-radius: 10px;
+    height: 50vh;
+    margin-top: 100px;
+    object-fit: cover;
+    margin-right: 750px;
+    margin-bottom: 100px;
+}
+
+.footer-title {
+    position: absolute;
+    color: #DFD3C3;
+    font-size: 4.5rem;
+    left: 55%;
+    top: 15%;
+}
+
+.footer-list {
+    position: absolute;
+    color: #DFD3C3;
+    font-size: 1.5rem;
+    left: 53.5%;
+    top: 40%;
+}
+
+.copy-right {
+    position: absolute;
+    color: #DFD3C3;
+    bottom: 0;
+    text-align: center;
+    font-weight: 200;
+}

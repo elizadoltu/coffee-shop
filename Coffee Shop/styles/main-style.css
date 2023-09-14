@@ -1,0 +1,34 @@
+main {
+    font-family: 'Jost', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Jost', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #DFD3C3;
+}
+
+section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #DFD3C3;
+}
+
+ul {
+    list-style-type: none;
+}
+
